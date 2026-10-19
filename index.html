@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Freedom's frontend development portfolio">
+    <title>Noor ul Ain | Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Noor<span>.</span></a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="hero section" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm <span>Noor Ul Ain</span></h1>
+                <h2>Frontend Developer</h2>
+                <p> 
+                    I enjoy bringing ideas to life through code! From designing
+    clean layouts to adding interactive features, I love creating
+    websites that look great and work smoothly on every device.
+                    
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="avatar">
+    <img src="C:\Users\PMLS\Downloads\Floral Hijab Portrait with Niqab.png" alt="Noor's profile photo"> </div>
+                <h3>Frontend Developer</h3>
+                <p>Learning, building, and improving every day.</p>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    I am a Computer Science graduate with a strong interest in frontend development and creating engaging web experiences. Through my virtual internship and hands-on projects, I am developing my skills in HTML, CSS, and JavaScript to build responsive, user-friendly websites.
+
+I enjoy solving problems, learning new technologies, and transforming ideas into functional web interfaces. I am eager to contribute my creativity, technical knowledge, and willingness to learn to a professional development team while continuing to grow as a frontend developer.
+                </p>
+                <p>
+                    I enjoy designing web pages and turning ideas into
+                    websites. I am improving my frontend development
+                    skills by building practical projects and learning
+                    new technologies.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section section-light" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I AM LEARNING</p>
+                <h2>My Skills</h2>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>Building the structure of web pages.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>CSS3</h3>
+                    <p>Styling layouts, colors, and responsive designs.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Adding interaction and dynamic functionality.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Responsive Design</h3>
+                    <p>Making websites work on mobile and desktop.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">MY RECENT WORK</p>
+                <h2>My Projects</h2>
+                <p>Some projects I have built while learning frontend development.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <h3>Weather App</h3>
+                    <p>
+                        A weather application that displays weather
+                        information for a searched city using a weather API.
+                    </p>
+                    <p class="tech-stack">HTML · CSS · JavaScript · API</p>
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer">Add GitHub link →</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <h3>Drag-and-Drop File Uploader</h3>
+                    <p>
+                        An image uploader with drag-and-drop functionality,
+                        image preview, file validation, and a progress bar.
+                    </p>
+                    <p class="tech-stack">HTML · CSS · JavaScript</p>
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer">Add GitHub link →</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">03</div>
+                    <h3>Multi-Step Form</h3>
+                    <p>
+                        A form with multiple steps, required-field validation,
+                        a progress indicator, and a final summary.
+                    </p>
+                    <p class="tech-stack">HTML · CSS · JavaScript</p>
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer">Add GitHub link →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section section-light" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact Me</h2>
+                <p>Have a project idea or an opportunity? Feel free to connect.</p>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5"
+                          placeholder="Write your message..." required></textarea>
+
+                <button type="submit" class="btn">Prepare Message</button>
+                <p id="form-status" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© <span id="year"></span> Noor Ul Ain. Built with HTML, CSS & JavaScript.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+</body>
+</html>
+
+
